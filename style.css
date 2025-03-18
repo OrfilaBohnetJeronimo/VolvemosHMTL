@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background: linear-gradient(to bottom, #0077be, #00aaff);
     margin-left: 5cm;
     margin-right: 5cm;
 }
@@ -18,4 +18,79 @@ p {
 
 img {
     width: 32cm;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el fondo del modal */
+.modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para los enlaces */
+.modal-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modal-content ul li {
+    margin: 10px 0;
+}
+
+.modal-content ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.modal-content ul li a:hover {
+    color: #000000;
+}
+
+/* Estilo para el botón de cerrar */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close-btn:hover {
+    color: black;
 }
