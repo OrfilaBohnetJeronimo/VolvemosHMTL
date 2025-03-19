@@ -17,6 +17,10 @@ p {
 }
 
 img {
+    width: 20cm;
+}
+
+.portada {
     width: 32cm;
 }
 
